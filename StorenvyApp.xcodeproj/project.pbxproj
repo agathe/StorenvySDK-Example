@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72063AAF860A41258AEF5280 /* libPods-StorenvyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 983D2A58817643F79055CA61 /* libPods-StorenvyApp.a */; };
+		AB5F61AFB20F68BD57CC3469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6F597948E84A88924675 /* main.m */; };
+		AB5F631756A47CCD269B8F5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB5F663E124ADD3584F2E6EB /* InfoPlist.strings */; };
+		AB5F634687F40823EBDE0B56 /* StoStoreGalleryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F68AE79E970474C4B6055 /* StoStoreGalleryViewModel.m */; };
+		AB5F6401547B3BA84F620312 /* STVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6C652A0F509FA3C1310C /* STVAppDelegate.m */; };
+		AB5F643BF5C43F2CEC5F217B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5F6B74899869A15582EA73 /* Images.xcassets */; };
+		AB5F64981124C56100DD47B6 /* StoProductsGalleryCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F68FE3EFBA2B2A33D4818 /* StoProductsGalleryCollectionCell.m */; };
+		AB5F64D9D9FA8A7AE6AA1C8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB5F6D17A6D63D06DE103C35 /* InfoPlist.strings */; };
+		AB5F650F5C93868B1AEBFFAA /* StoProductsGalleryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F63F3C03EFA3D889C6FB8 /* StoProductsGalleryViewModel.m */; };
+		AB5F659D584258EB1CE116F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F6D5F6F04EF6180A7D5BF /* SystemConfiguration.framework */; };
+		AB5F66017F9668DEA1591272 /* StoCollectionsProductsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F65843C3138ADC40AEAB7 /* StoCollectionsProductsViewModel.m */; };
+		AB5F6896008ECE6B6DA765B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F68D8E5612385E6441D5D /* XCTest.framework */; };
+		AB5F6967898DB6FC124114F6 /* StoProductsGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6BDB94B58E07F3AEB89B /* StoProductsGalleryViewController.m */; };
+		AB5F697A5E008BEDC34EA45A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F6EB98A5E3B1805329B47 /* CoreGraphics.framework */; };
+		AB5F6B2CEAA9E522C9B78B2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F6D3AC03990C84660344F /* UIKit.framework */; };
+		AB5F6B419F0C0504086C8D66 /* StoStoreGalleryStoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6EB67841507DEBDA798A /* StoStoreGalleryStoreCell.m */; };
+		AB5F6BE61454D0BA9C82483A /* StoDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6326EAA636BCDDF34C6F /* StoDataImporter.m */; };
+		AB5F6D206A6E97D62AE93D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F63BE06AA34300DAD81A1 /* Foundation.framework */; };
+		AB5F6D645FE40F55A0D18C4E /* StorenvyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F65D6BB2683F2C3BDB13F /* StorenvyAppTests.m */; };
+		AB5F6D675517600C9B5013BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F6D3AC03990C84660344F /* UIKit.framework */; };
+		AB5F6DA16540FA5477B0A33A /* StoProductsGalleryProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6C2A94298D1E754846A9 /* StoProductsGalleryProductCell.m */; };
+		AB5F6DA93B90697B7F2504F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F62F8A6093C2A4F009C4E /* MobileCoreServices.framework */; };
+		AB5F6DDD57C7CDC6552883A9 /* StoGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F65358E7905CEAC149C80 /* StoGalleryFlowLayout.m */; };
+		AB5F6E559FD1CC9D3180F099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5F63BE06AA34300DAD81A1 /* Foundation.framework */; };
+		AB5F6EE01482045021E36FA1 /* StoStoreGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6FD77D555268C93DED3F /* StoStoreGalleryViewController.m */; };
+		AB5F6FE3EBA682CA6EE58940 /* UIColor+StoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F628261CE2C733EF0A27D /* UIColor+StoUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5F62347980A8ADE5446C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5F60509DE0442F872874C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5F6220948948ABD47A63CA;
+			remoteInfo = StorenvyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4120A55E3877404FB7F1CDEF /* Pods-StorenvyApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorenvyApp.xcconfig"; path = "Pods/Pods-StorenvyApp.xcconfig"; sourceTree = "<group>"; };
+		983D2A58817643F79055CA61 /* libPods-StorenvyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StorenvyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F6075F512B6079DE31FDA /* StoGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoGalleryFlowLayout.h; sourceTree = "<group>"; };
+		AB5F622F12A4F773FCFE6CE4 /* StoProductsGalleryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoProductsGalleryViewModel.h; sourceTree = "<group>"; };
+		AB5F628261CE2C733EF0A27D /* UIColor+StoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+StoUtils.m"; sourceTree = "<group>"; };
+		AB5F62B2D9C9F784AE78D5B1 /* StoProductsGalleryCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoProductsGalleryCollectionCell.h; sourceTree = "<group>"; };
+		AB5F62E28202F6955FAAB95C /* StorenvyAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "StorenvyAppTests-Info.plist"; sourceTree = "<group>"; };
+		AB5F62F8A6093C2A4F009C4E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AB5F6326EAA636BCDDF34C6F /* StoDataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoDataImporter.m; sourceTree = "<group>"; };
+		AB5F63BE06AA34300DAD81A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB5F63F3C03EFA3D889C6FB8 /* StoProductsGalleryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoProductsGalleryViewModel.m; sourceTree = "<group>"; };
+		AB5F64AC102752C83529F16E /* StoProductsGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoProductsGalleryViewController.h; sourceTree = "<group>"; };
+		AB5F65358E7905CEAC149C80 /* StoGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoGalleryFlowLayout.m; sourceTree = "<group>"; };
+		AB5F65843C3138ADC40AEAB7 /* StoCollectionsProductsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoCollectionsProductsViewModel.m; sourceTree = "<group>"; };
+		AB5F65D6BB2683F2C3BDB13F /* StorenvyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorenvyAppTests.m; sourceTree = "<group>"; };
+		AB5F66029728D7C7C0F40487 /* StoDataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoDataImporter.h; sourceTree = "<group>"; };
+		AB5F6635C75E4EE397256AF6 /* StorenvyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StorenvyApp-Prefix.pch"; sourceTree = "<group>"; };
+		AB5F66A209BEF9C4CB7BDF26 /* StorenvyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorenvyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F67C884A8DE336017DEC8 /* StorenvyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorenvyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F687466922DF6468CB662 /* StoCollectionsProductsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoCollectionsProductsViewModel.h; sourceTree = "<group>"; };
+		AB5F68AE79E970474C4B6055 /* StoStoreGalleryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoStoreGalleryViewModel.m; sourceTree = "<group>"; };
+		AB5F68D8E5612385E6441D5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AB5F68FE3EFBA2B2A33D4818 /* StoProductsGalleryCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoProductsGalleryCollectionCell.m; sourceTree = "<group>"; };
+		AB5F68FF86FFC3D32005CB38 /* UIColor+StoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+StoUtils.h"; sourceTree = "<group>"; };
+		AB5F692139707722FF7F4ADE /* StoProductsGalleryProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoProductsGalleryProductCell.h; sourceTree = "<group>"; };
+		AB5F6A5210E00B7E01B51CCD /* STVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STVAppDelegate.h; sourceTree = "<group>"; };
+		AB5F6AAFD0A8530CCB1AC40D /* StoStoreGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoStoreGalleryViewController.h; sourceTree = "<group>"; };
+		AB5F6B434F7FF2F154EB3BE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB5F6B74899869A15582EA73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB5F6BC7E108AC66A76E20E3 /* StoStoreGalleryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoStoreGalleryViewModel.h; sourceTree = "<group>"; };
+		AB5F6BDB94B58E07F3AEB89B /* StoProductsGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoProductsGalleryViewController.m; sourceTree = "<group>"; };
+		AB5F6C2A94298D1E754846A9 /* StoProductsGalleryProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoProductsGalleryProductCell.m; sourceTree = "<group>"; };
+		AB5F6C652A0F509FA3C1310C /* STVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STVAppDelegate.m; sourceTree = "<group>"; };
+		AB5F6CFA748822BF680463D3 /* StorenvyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "StorenvyApp-Info.plist"; sourceTree = "<group>"; };
+		AB5F6D3AC03990C84660344F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB5F6D5F6F04EF6180A7D5BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB5F6E8921D14F58105EF72B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB5F6EB67841507DEBDA798A /* StoStoreGalleryStoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoStoreGalleryStoreCell.m; sourceTree = "<group>"; };
+		AB5F6EB98A5E3B1805329B47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB5F6F01F9DE152A8CC40996 /* StoStoreGalleryStoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoStoreGalleryStoreCell.h; sourceTree = "<group>"; };
+		AB5F6F597948E84A88924675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB5F6FD77D555268C93DED3F /* StoStoreGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoStoreGalleryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5F698847F6824018578117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F6D206A6E97D62AE93D25 /* Foundation.framework in Frameworks */,
+				AB5F697A5E008BEDC34EA45A /* CoreGraphics.framework in Frameworks */,
+				AB5F6B2CEAA9E522C9B78B2A /* UIKit.framework in Frameworks */,
+				72063AAF860A41258AEF5280 /* libPods-StorenvyApp.a in Frameworks */,
+				AB5F659D584258EB1CE116F2 /* SystemConfiguration.framework in Frameworks */,
+				AB5F6DA93B90697B7F2504F6 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5F6B7C977DCD63FB83E9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F6896008ECE6B6DA765B8 /* XCTest.framework in Frameworks */,
+				AB5F6E559FD1CC9D3180F099 /* Foundation.framework in Frameworks */,
+				AB5F6D675517600C9B5013BE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5F6045D28AD1D571E967C9 /* GalleryProducts */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6BDB94B58E07F3AEB89B /* StoProductsGalleryViewController.m */,
+				AB5F64AC102752C83529F16E /* StoProductsGalleryViewController.h */,
+				AB5F63F3C03EFA3D889C6FB8 /* StoProductsGalleryViewModel.m */,
+				AB5F622F12A4F773FCFE6CE4 /* StoProductsGalleryViewModel.h */,
+				AB5F65843C3138ADC40AEAB7 /* StoCollectionsProductsViewModel.m */,
+				AB5F687466922DF6468CB662 /* StoCollectionsProductsViewModel.h */,
+			);
+			path = GalleryProducts;
+			sourceTree = "<group>";
+		};
+		AB5F60686B6F1C5D82D28893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F66A209BEF9C4CB7BDF26 /* StorenvyApp.app */,
+				AB5F67C884A8DE336017DEC8 /* StorenvyAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5F6145B0D158FFEA06A925 /* StorenvyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6C1AD1B7A106D9624D5E /* Supporting Files */,
+				AB5F65D6BB2683F2C3BDB13F /* StorenvyAppTests.m */,
+			);
+			path = StorenvyAppTests;
+			sourceTree = "<group>";
+		};
+		AB5F62A232BD3CB191519585 /* GalleryStores */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6FD77D555268C93DED3F /* StoStoreGalleryViewController.m */,
+				AB5F6AAFD0A8530CCB1AC40D /* StoStoreGalleryViewController.h */,
+				AB5F68AE79E970474C4B6055 /* StoStoreGalleryViewModel.m */,
+				AB5F6BC7E108AC66A76E20E3 /* StoStoreGalleryViewModel.h */,
+			);
+			path = GalleryStores;
+			sourceTree = "<group>";
+		};
+		AB5F68C4B1B92C0CD684FB07 /* StorenvyApp */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6EC02F41699FBA40E454 /* Supporting Files */,
+				AB5F6A5210E00B7E01B51CCD /* STVAppDelegate.h */,
+				AB5F6C652A0F509FA3C1310C /* STVAppDelegate.m */,
+				AB5F6B74899869A15582EA73 /* Images.xcassets */,
+				AB5F62A232BD3CB191519585 /* GalleryStores */,
+				AB5F6CE15D081F0140C8385D /* CollectionViewExtensions */,
+				AB5F6B80565A468CCE360C28 /* Utils */,
+				AB5F6326EAA636BCDDF34C6F /* StoDataImporter.m */,
+				AB5F66029728D7C7C0F40487 /* StoDataImporter.h */,
+				AB5F6045D28AD1D571E967C9 /* GalleryProducts */,
+			);
+			path = StorenvyApp;
+			sourceTree = "<group>";
+		};
+		AB5F6B6CB425CD797E28CFA2 = {
+			isa = PBXGroup;
+			children = (
+				AB5F60686B6F1C5D82D28893 /* Products */,
+				AB5F6C882ADA6410B7DDEA96 /* Frameworks */,
+				AB5F68C4B1B92C0CD684FB07 /* StorenvyApp */,
+				AB5F6145B0D158FFEA06A925 /* StorenvyAppTests */,
+				4120A55E3877404FB7F1CDEF /* Pods-StorenvyApp.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5F6B80565A468CCE360C28 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F628261CE2C733EF0A27D /* UIColor+StoUtils.m */,
+				AB5F68FF86FFC3D32005CB38 /* UIColor+StoUtils.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AB5F6C1AD1B7A106D9624D5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F62E28202F6955FAAB95C /* StorenvyAppTests-Info.plist */,
+				AB5F663E124ADD3584F2E6EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5F6C882ADA6410B7DDEA96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F63BE06AA34300DAD81A1 /* Foundation.framework */,
+				AB5F6EB98A5E3B1805329B47 /* CoreGraphics.framework */,
+				AB5F6D3AC03990C84660344F /* UIKit.framework */,
+				AB5F68D8E5612385E6441D5D /* XCTest.framework */,
+				983D2A58817643F79055CA61 /* libPods-StorenvyApp.a */,
+				AB5F6D5F6F04EF6180A7D5BF /* SystemConfiguration.framework */,
+				AB5F62F8A6093C2A4F009C4E /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB5F6CE15D081F0140C8385D /* CollectionViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F65358E7905CEAC149C80 /* StoGalleryFlowLayout.m */,
+				AB5F6075F512B6079DE31FDA /* StoGalleryFlowLayout.h */,
+				AB5F6EB67841507DEBDA798A /* StoStoreGalleryStoreCell.m */,
+				AB5F6F01F9DE152A8CC40996 /* StoStoreGalleryStoreCell.h */,
+				AB5F6C2A94298D1E754846A9 /* StoProductsGalleryProductCell.m */,
+				AB5F692139707722FF7F4ADE /* StoProductsGalleryProductCell.h */,
+				AB5F68FE3EFBA2B2A33D4818 /* StoProductsGalleryCollectionCell.m */,
+				AB5F62B2D9C9F784AE78D5B1 /* StoProductsGalleryCollectionCell.h */,
+			);
+			path = CollectionViewExtensions;
+			sourceTree = "<group>";
+		};
+		AB5F6EC02F41699FBA40E454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6CFA748822BF680463D3 /* StorenvyApp-Info.plist */,
+				AB5F6D17A6D63D06DE103C35 /* InfoPlist.strings */,
+				AB5F6F597948E84A88924675 /* main.m */,
+				AB5F6635C75E4EE397256AF6 /* StorenvyApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5F60EFDC3458BBF0125E08 /* StorenvyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5F63922CEF54A14F8B61F8 /* Build configuration list for PBXNativeTarget "StorenvyAppTests" */;
+			buildPhases = (
+				AB5F615F473028332580D03E /* Sources */,
+				AB5F6B7C977DCD63FB83E9CC /* Frameworks */,
+				AB5F61C4E5599B87CC04C1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5F625114B1492761D66ECF /* PBXTargetDependency */,
+			);
+			name = StorenvyAppTests;
+			productName = StorenvyAppTests;
+			productReference = AB5F67C884A8DE336017DEC8 /* StorenvyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5F6220948948ABD47A63CA /* StorenvyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5F6F936814164ED580A9E6 /* Build configuration list for PBXNativeTarget "StorenvyApp" */;
+			buildPhases = (
+				543075FF662648699585C35F /* Check Pods Manifest.lock */,
+				AB5F6DC68D94FF109E526B06 /* Sources */,
+				AB5F698847F6824018578117 /* Frameworks */,
+				AB5F64705FA3EBDAEAE58862 /* Resources */,
+				DC7E0F014AAC4D44A1B1D7BE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorenvyApp;
+			productName = StorenvyApp;
+			productReference = AB5F66A209BEF9C4CB7BDF26 /* StorenvyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5F60509DE0442F872874C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Storenvy;
+				TargetAttributes = {
+					AB5F6220948948ABD47A63CA = {
+						DevelopmentTeam = PTA88CMJZF;
+					};
+				};
+			};
+			buildConfigurationList = AB5F6123D78DC4F27BF2420B /* Build configuration list for PBXProject "StorenvyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB5F6B6CB425CD797E28CFA2;
+			productRefGroup = AB5F60686B6F1C5D82D28893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5F6220948948ABD47A63CA /* StorenvyApp */,
+				AB5F60EFDC3458BBF0125E08 /* StorenvyAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5F61C4E5599B87CC04C1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F631756A47CCD269B8F5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5F64705FA3EBDAEAE58862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F64D9D9FA8A7AE6AA1C8D /* InfoPlist.strings in Resources */,
+				AB5F643BF5C43F2CEC5F217B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		543075FF662648699585C35F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7E0F014AAC4D44A1B1D7BE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-StorenvyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5F615F473028332580D03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F6D645FE40F55A0D18C4E /* StorenvyAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5F6DC68D94FF109E526B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F61AFB20F68BD57CC3469 /* main.m in Sources */,
+				AB5F6401547B3BA84F620312 /* STVAppDelegate.m in Sources */,
+				AB5F6EE01482045021E36FA1 /* StoStoreGalleryViewController.m in Sources */,
+				AB5F6DDD57C7CDC6552883A9 /* StoGalleryFlowLayout.m in Sources */,
+				AB5F6B419F0C0504086C8D66 /* StoStoreGalleryStoreCell.m in Sources */,
+				AB5F6FE3EBA682CA6EE58940 /* UIColor+StoUtils.m in Sources */,
+				AB5F6BE61454D0BA9C82483A /* StoDataImporter.m in Sources */,
+				AB5F634687F40823EBDE0B56 /* StoStoreGalleryViewModel.m in Sources */,
+				AB5F6967898DB6FC124114F6 /* StoProductsGalleryViewController.m in Sources */,
+				AB5F650F5C93868B1AEBFFAA /* StoProductsGalleryViewModel.m in Sources */,
+				AB5F6DA16540FA5477B0A33A /* StoProductsGalleryProductCell.m in Sources */,
+				AB5F66017F9668DEA1591272 /* StoCollectionsProductsViewModel.m in Sources */,
+				AB5F64981124C56100DD47B6 /* StoProductsGalleryCollectionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5F625114B1492761D66ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5F6220948948ABD47A63CA /* StorenvyApp */;
+			targetProxy = AB5F62347980A8ADE5446C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5F663E124ADD3584F2E6EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5F6B434F7FF2F154EB3BE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB5F6D17A6D63D06DE103C35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5F6E8921D14F58105EF72B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5F61D11B04BC6527BC1577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorenvyApp/StorenvyApp-Prefix.pch";
+				INFOPLIST_FILE = "StorenvyAppTests/StorenvyAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		AB5F631C8882DAEF112C4179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5F65A1610B2ED32523D120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorenvyApp/StorenvyApp-Prefix.pch";
+				INFOPLIST_FILE = "StorenvyAppTests/StorenvyAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB5F6BCD7D6842E2BE377FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4120A55E3877404FB7F1CDEF /* Pods-StorenvyApp.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/agathe/PROJECTS/20140218_Storenvy/StorenvyApp,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorenvyApp/StorenvyApp-Prefix.pch";
+				INFOPLIST_FILE = "StorenvyApp/StorenvyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB5F6DC57B684440EDC55C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5F6ECDC23D382CDC2799FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4120A55E3877404FB7F1CDEF /* Pods-StorenvyApp.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/agathe/PROJECTS/20140218_Storenvy/StorenvyApp,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorenvyApp/StorenvyApp-Prefix.pch";
+				INFOPLIST_FILE = "StorenvyApp/StorenvyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5F6123D78DC4F27BF2420B /* Build configuration list for PBXProject "StorenvyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5F6DC57B684440EDC55C12 /* Release */,
+				AB5F631C8882DAEF112C4179 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5F63922CEF54A14F8B61F8 /* Build configuration list for PBXNativeTarget "StorenvyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5F61D11B04BC6527BC1577 /* Release */,
+				AB5F65A1610B2ED32523D120 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5F6F936814164ED580A9E6 /* Build configuration list for PBXNativeTarget "StorenvyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5F6ECDC23D382CDC2799FD /* Release */,
+				AB5F6BCD7D6842E2BE377FDD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5F60509DE0442F872874C2 /* Project object */;
+}

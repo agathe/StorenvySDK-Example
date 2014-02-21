@@ -1,0 +1,9 @@
+*.pyc
+.DS_Store
+.idea
+pois/cache
+indata/london/tfl
+DerivedData
+Pods
+StorenvySDK.xcworkspace
+*.lock
