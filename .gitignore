@@ -5,5 +5,5 @@ pois/cache
 indata/london/tfl
 DerivedData
 Pods
-StorenvySDK.xcworkspace
+*.xcworkspace
 *.lock
